@@ -9,7 +9,7 @@ export default function ServicesOverview() {
           <div className="bg-[#8f4f68] text-white rounded-lg shadow-md px-6 py-5">
             <p className="text-xl font-bold leading-tight">Get in Touch</p>
             <p className="text-sm font-light mt-1">
-              Schedule your personalized appointment online and we’ll follow up
+              Schedule your personalized appointment online and we&#39;ll follow up
               by email.
             </p>
             <a
@@ -29,7 +29,7 @@ export default function ServicesOverview() {
             <div>
               <div className="relative w-full aspect-square rounded-xl overflow-hidden shadow-sm">
                 <Image
-                  src="/images/eyebrow.jfif"
+                  src="/images/radiant.jpg"
                   alt="Radiant Skin, Naturally Nourished"
                   fill
                   className="object-cover"
