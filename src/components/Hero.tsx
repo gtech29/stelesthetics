@@ -55,21 +55,24 @@ export default function Hero() {
             <p className="text-[#5a5a5a] text-lg leading-relaxed">
               At StelEsthetics, we offer customized skincare and beauty
               treatments designed to help you glow — inside and out. From
-              rejuvenating facials to gentle waxing, we&#39;re here to help you feel
-              your best in a peaceful, private setting.
+              rejuvenating facials to gentle waxing, we&#39;re here to help you
+              feel your best in a peaceful, private setting.
             </p>
 
-            <button
-              className="mt-6 font-semibold py-3 px-6 rounded shadow-md transition duration-300"
+            <a
+              href="/services"
+              className="mt-6 font-semibold py-3 px-6 rounded shadow-md transition duration-300 inline-block"
               style={{
                 backgroundColor: "#b75d69",
                 color: "#ffffff",
+                textDecoration: "none",
+                cursor: "pointer",
               }}
               onMouseOver={(e) =>
-                (e.currentTarget.style.backgroundColor = "#9e4956")
+                ((e.currentTarget as HTMLAnchorElement).style.backgroundColor = "#9e4956")
               }
               onMouseOut={(e) =>
-                (e.currentTarget.style.backgroundColor = "#b75d69")
+                ((e.currentTarget as HTMLAnchorElement).style.backgroundColor = "#b75d69")
               }
             >
               <span className="inline-flex items-center gap-2">
@@ -82,7 +85,7 @@ export default function Hero() {
                 />
                 Book Now
               </span>
-            </button>
+            </a>
           </motion.div>
 
           {/* Image with Testimonial */}
@@ -104,7 +107,8 @@ export default function Hero() {
             {/* Floating Testimonial */}
             <div className="absolute bottom-4 right-4 bg-white shadow-lg rounded-lg p-4 text-sm max-w-xs hidden md:block">
               <p className="italic text-gray-700">
-                “The best facial I&#39;ve ever had — so relaxing and personalized!”
+                “The best facial I&#39;ve ever had — so relaxing and
+                personalized!”
               </p>
               <p className="text-right text-pink-600 mt-2 font-semibold">
                 – Emily R.
@@ -112,8 +116,6 @@ export default function Hero() {
             </div>
           </motion.div>
         </div>
-
-        
       </section>
     </>
   );

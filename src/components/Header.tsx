@@ -39,7 +39,7 @@ export default function Header() {
             Contact
           </Link>
           <Link
-            href="/book"
+            href="/services"
             className="ml-4 bg-[#b75d69] hover:bg-[#9e4956] text-white py-2 px-4 rounded-full transition"
           >
             Book Now
@@ -71,7 +71,7 @@ export default function Header() {
               Contact
             </Link>
             <Link
-              href="/book"
+              href="/services"
               onClick={() => setIsOpen(false)}
               className="bg-pink-500 hover:bg-pink-600 text-white py-2 px-4 rounded-full text-center transition"
             >

@@ -13,7 +13,7 @@ export default function ServicesOverview() {
               by email.
             </p>
             <a
-              href="/schedule" // or a Calendly link like https://calendly.com/your-link
+              href="/services"
               className="inline-block mt-4 bg-white text-[#8f4f68] font-semibold py-2 px-4 rounded hover:bg-[#f0e8ec] transition"
             >
               Schedule Now
