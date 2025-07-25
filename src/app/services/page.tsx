@@ -16,7 +16,7 @@ export default function servicesPage() {
             </p>
           </section>
           <iframe
-            src="https://app.squarespacescheduling.com/schedule/eaf910b9" // replace this
+            src="https://app.squarespacescheduling.com/schedule/eaf910b9" 
             className="w-full min-h-[720px] border-0"
             allowFullScreen
             loading="lazy"
