@@ -23,7 +23,7 @@ const productList = [
     img: "/images/licorice.jpg",
   },
   {
-    title: "Mineral SPF 30",
+    title: "Rose-Ease Relief Cream",
     description:
       "Targeted treatment formulated to calm redness and irritation associated with rosacea and other reactive or sensitive skin conditions.",
     img: "/images/Rose-EaseRelief-Cream.jpg",
