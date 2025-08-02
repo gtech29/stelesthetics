@@ -24,8 +24,9 @@ const productList = [
   },
   {
     title: "Mineral SPF 30",
-    description: "Lightweight, broad-spectrum sun protection for daily use.",
-    img: "/images/sunscreen.jpg",
+    description:
+      "Targeted treatment formulated to calm redness and irritation associated with rosacea and other reactive or sensitive skin conditions.",
+    img: "/images/Rose-EaseRelief-Cream.jpg",
   },
 ];
 
