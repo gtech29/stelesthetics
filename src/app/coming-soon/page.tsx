@@ -17,8 +17,7 @@ export default function ComingSoonPage() {
           Store Coming Soon
         </h1>
         <p className="text-center text-gray-600 mb-8 max-w-md">
-          We&#39;re working hard to launch our full skincare shop. Sign up below to
-          be the first to know when it goes live!
+          We&#39;re working hard to launch our full skincare shop.
         </p>
         {/* <form
           action="https://formspree.io/f/yourFormID"
