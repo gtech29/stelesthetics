@@ -9,8 +9,8 @@ export default function ServicesOverview() {
           <div className="bg-[#8f4f68] text-white rounded-lg shadow-md px-6 py-5">
             <p className="text-xl font-bold leading-tight">Get in Touch</p>
             <p className="text-sm font-light mt-1">
-              Schedule your personalized appointment online and we&#39;ll follow up
-              by email.
+              Book your customized appointment online. We&#39;ll send a
+              confirmation and follow up by email with everything you need.
             </p>
             <a
               href="/services"
@@ -19,7 +19,6 @@ export default function ServicesOverview() {
               Schedule Now
             </a>
           </div>
-
         </div>
 
         {/* Promo Grid */}
@@ -37,13 +36,13 @@ export default function ServicesOverview() {
                 />
               </div>
               <h3 className="mt-4 text-[#8f4f68] font-semibold">
-                Radiant Skin, Naturally Nourished
+                Naturally Nourished, Radiant Skin
               </h3>
               <p className="text-sm text-[#4e4e4e] mt-1">
-                Experience the power of nature with our personalized facials and
-                rejuvenating skincare treatments. We use organic masks, deep
-                hydration techniques, and nutrient-rich ingredients to restore
-                your skin&#39;s natural glow.
+                Restore your skin&#39;s glow with our personalized facials and
+                natural skincare treatments. We use organic masks, deep
+                hydration, and nutrient-rich ingredients to leave your skin
+                refreshed, balanced, and visibly healthier.
               </p>
             </div>
 
@@ -62,10 +61,11 @@ export default function ServicesOverview() {
                 Revitalize Your Skin Naturally
               </h3>
               <p className="text-sm text-[#4e4e4e] mt-1">
-                A lash lift is like a perm for your natural lashes, giving them
-                a longer, lifted, and more defined look without the need for
-                extensions. It opens up your eyes, making them appear more awake
-                and refreshed.
+                This customized facial is designed for all skin types and ages.
+                Whether you’re looking to reduce breakouts, improve texture, or
+                simply refresh your complexion, we tailor each treatment to your
+                unique needs. With deep cleansing, exfoliation, and hydration,
+                your skin will feel balanced, clear, and healthy.
               </p>
             </div>
 
@@ -84,11 +84,11 @@ export default function ServicesOverview() {
                 Targeted Skincare Solutions
               </h3>
               <p className="text-sm text-[#4e4e4e] mt-1">
-                From acne-prone to sensitive skin, our personalized treatments
-                help restore balance and bring out your natural glow. Using a
-                blend of professional-grade products and customized regimens, we
-                address your skin concerns with precision, helping you achieve
-                smooth, healthy, and vibrant skin.
+                Whether you&#39;re dealing with acne, sensitivity, or dullness, our
+                customized skincare treatments are tailored to your unique skin
+                needs. Using professional-grade products and focused techniques,
+                we help restore balance, calm irritation, and improve overall
+                clarity for healthier, more resilient skin.
               </p>
             </div>
           </div>

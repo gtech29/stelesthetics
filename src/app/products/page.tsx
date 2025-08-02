@@ -53,23 +53,37 @@ export default function ProductsPage() {
 
   return (
     <main className="relative bg-gradient-to-b from-[#fdf6f8] to-white py-24 px-4 mt-20">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-serif font-bold text-center text-[#8f4f68] mb-4">
+      <section
+        id="curated-favorites"
+        aria-labelledby="curated-favorites-heading"
+        className="max-w-4xl mx-auto"
+      >
+        <h2
+          id="curated-favorites-heading"
+          className="text-4xl font-serif font-bold text-center text-[#8f4f68] mb-4"
+        >
           Curated Favorites
-        </h1>
-        <p className="text-center text-gray-500 text-sm sm:text-base max-w-xl mx-auto mb-6">
-          Members receive access to exclusive product lines, professional
-          pricing, and early access to new releases. Sign in to explore the full
-          collection.
+        </h2>
+        <p className="text-center text-gray-600 text-base sm:text-lg max-w-3xl mx-auto mb-8">
+          Members enjoy exclusive access to professional skincare products,
+          preferred pricing, and early previews of new arrivals. Sign up now to
+          unlock the full collection and elevate your daily routine.
         </p>
 
         <div className="text-center mb-12">
           <Link
-            href="/products/full"
-            className="inline-block bg-[#b75d69] hover:bg-[#9e4956] text-white font-semibold py-3 px-8 rounded-full shadow-md transition"
+            href="/coming-soon"
+            className="inline-block bg-[#b75d69] hover:bg-[#9e4956] text-white font-semibold py-3 px-8 rounded-full shadow-md transition focus:outline-none focus:ring-2 focus:ring-[#b75d69] focus:ring-offset-2"
+            aria-label="Sign up to be notified when our full skincare collection launches"
           >
-            Unlock the Full Collection
+            Unlock the Full Skincare Collection
           </Link>
+          {/* <p className="text-sm text-gray-500 mt-3">
+            Already a member?{" "}
+            <Link href="/login" className="underline">
+              Sign in here
+            </Link>
+          </p> */}
         </div>
 
         <Slider {...settings}>
@@ -96,7 +110,7 @@ export default function ProductsPage() {
             </div>
           ))}
         </Slider>
-      </div>
+      </section>
     </main>
   );
 }

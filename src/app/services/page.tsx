@@ -11,12 +11,13 @@ export default function servicesPage() {
               Services Menu
             </h1>
             <p className="text-gray-600 text-lg max-w-xl mx-auto">
-              Book your favorite facial directly below—no pop-ups, no
-              redirections. Just smooth skin and a smoother experience.
+              Explore our full range of facials and skincare services.<br></br> Book
+              directly below! No pop-ups, no redirects. Just simple scheduling
+              and personalized care for healthier, more radiant skin.
             </p>
           </section>
           <iframe
-            src="https://app.squarespacescheduling.com/schedule/eaf910b9" 
+            src="https://app.squarespacescheduling.com/schedule/eaf910b9"
             className="w-full min-h-[720px] border-0"
             allowFullScreen
             loading="lazy"

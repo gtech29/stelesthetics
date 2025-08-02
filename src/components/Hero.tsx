@@ -46,17 +46,21 @@ export default function Hero() {
               className="uppercase tracking-widest text-sm mb-2"
               style={{ color: "#a89ba1" }}
             >
-              Glow. Renew. Radiate.
+              Hands-on skincare: facials • chemical peels • microdermabrasion •
+              dermaplaning
             </p>
 
             <p className="text-md mb-4" style={{ color: "#4e4e4e" }}>
-              Personalized skincare designed to restore your natural glow.
+              Personalized skincare to bring out your natural glow.
             </p>
             <p className="text-[#5a5a5a] text-lg leading-relaxed">
-              At StelEsthetics, we offer customized skincare and beauty
-              treatments designed to help you glow — inside and out. From
-              rejuvenating facials to gentle waxing, we&#39;re here to help you
-              feel your best in a peaceful, private setting.
+              In our private Plano studio, Estela performs every treatment
+              personally, from deep-cleansing facials and professional AHA/BHA
+              chemical peels to microdermabrasion and dermaplaning. Each
+              appointment begins with a detailed skin analysis, followed by
+              careful extractions, tailored exfoliation, and a healing hydration
+              mask. Expect honest guidance, evidence-based techniques, and
+              simple post-care recommendations to maintain results at home.
             </p>
 
             <a
@@ -69,10 +73,12 @@ export default function Hero() {
                 cursor: "pointer",
               }}
               onMouseOver={(e) =>
-                ((e.currentTarget as HTMLAnchorElement).style.backgroundColor = "#9e4956")
+                ((e.currentTarget as HTMLAnchorElement).style.backgroundColor =
+                  "#9e4956")
               }
               onMouseOut={(e) =>
-                ((e.currentTarget as HTMLAnchorElement).style.backgroundColor = "#b75d69")
+                ((e.currentTarget as HTMLAnchorElement).style.backgroundColor =
+                  "#b75d69")
               }
             >
               <span className="inline-flex items-center gap-2">
@@ -83,7 +89,7 @@ export default function Hero() {
                   height={24}
                   className="filter invert brightness-0"
                 />
-                Book Now
+                Book Your Treatment Now
               </span>
             </a>
           </motion.div>
@@ -107,11 +113,11 @@ export default function Hero() {
             {/* Floating Testimonial */}
             <div className="absolute bottom-4 right-4 bg-white shadow-lg rounded-lg p-4 text-sm max-w-xs hidden md:block">
               <p className="italic text-gray-700">
-                “The best facial I&#39;ve ever had — so relaxing and
-                personalized!”
+                &quot;Love StelEsthetics!! She is literally the best and does a
+                phenomenal job every time I book an appointment with her!!&quot;
               </p>
               <p className="text-right text-pink-600 mt-2 font-semibold">
-                – Emily R.
+                - Rushvi
               </p>
             </div>
           </motion.div>

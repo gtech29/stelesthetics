@@ -17,8 +17,9 @@ export default function Reviews() {
           Your Skin, Their Stories
         </h2>
         <p className="text-base sm:text-lg text-gray-700 mb-12 max-w-2xl mx-auto">
-          Real reviews from real people. Discover how our personalized care has
-          helped clients glow with confidence.
+          Hear directly from clients who&#39;ve seen visible results. Our
+          personalized skincare treatments have helped people of all skin types
+          feel more confident, refreshed, and cared for.
         </p>
 
         <div
