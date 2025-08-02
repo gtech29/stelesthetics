@@ -42,16 +42,9 @@ export default function Hero() {
               StelEsthetics
             </h2>
 
-            <p
-              className="uppercase tracking-widest text-sm mb-2"
-              style={{ color: "#a89ba1" }}
-            >
-              Hands-on skincare: facials • chemical peels • microdermabrasion •
+            <p className="uppercase tracking-widest text-sm mb-5 text-[#a89ba1]">
+              Hands-on skincare <br></br>facials, chemical peels, microdermabrasion, and
               dermaplaning
-            </p>
-
-            <p className="text-md mb-4" style={{ color: "#4e4e4e" }}>
-              Personalized skincare to bring out your natural glow.
             </p>
             <p className="text-[#5a5a5a] text-lg leading-relaxed">
               In our private Plano studio, Estela performs every treatment
