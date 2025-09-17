@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function Hero() {
   return (
@@ -35,6 +36,7 @@ export default function Hero() {
             viewport={{ once: true }}
             className="md:w-1/2 text-center md:text-left"
           >
+            <Analytics />
             <h2
               className="text-4xl font-serif font-bold mb-2"
               style={{ color: "#9c5c75" }}
@@ -43,8 +45,8 @@ export default function Hero() {
             </h2>
 
             <p className="uppercase tracking-widest text-sm mb-5 text-[#a89ba1]">
-              Hands-on skincare <br></br>facials, chemical peels, microdermabrasion, and
-              dermaplaning
+              Hands-on skincare <br></br>facials, chemical peels,
+              microdermabrasion, and dermaplaning
             </p>
             <p className="text-[#5a5a5a] text-lg leading-relaxed">
               In our private Plano studio, Estela performs every treatment

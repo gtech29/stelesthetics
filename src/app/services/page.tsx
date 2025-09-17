@@ -1,10 +1,11 @@
 // src/app/services/services/page.tsx
-
+import { Analytics } from "@vercel/analytics/next"
 export default function servicesPage() {
   return (
     <section className="w-full h-screen">
       <main className="bg-[#fcf8ff] pb-20 pt-16 px-4 min-h-screen">
         <div className="max-w-6xl mx-auto">
+          <Analytics/>
           {/* Header */}
           <section className="mt-20 text-center">
             <h1 className="text-4xl font-serif font-bold text-[#9c5c75] mb-4">
