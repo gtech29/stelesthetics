@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Esthetician Website
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project began with the need to create a modern, professional website for an esthetician.
+While scheduling had been handled through Squarespace successfully, the growing demand for services highlighted the need for a stronger online presence.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The goal was to design a platform that presents products and services in a **professional yet personable way**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Landing page** that introduces customers to the business and services
+- **Navigation bar** linking to dedicated sections (Services, Products, Appointments)
+- **Image galleries** showcasing offerings with clear, inviting previews for potential clients
 
-## Learn More
+The project originally started in **Webflow**, but later transitioned to a **MERN-style stack** to take advantage of:
 
-To learn more about Next.js, take a look at the following resources:
+- Greater customization
+- Improved scalability
+- Long-term maintainability
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Planned Upgrades
 
-## Deploy on Vercel
+- [ ] Implement a login page for consumers to access exclusive pricing and product details
+- [ ] Launch a rewards campaign to encourage client loyalty and engagement
+- [ ] Continue refining design and responsiveness for mobile and desktop users
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tech Stack
+
+- **Frontend**: React (with plans for further UI enhancements)
+- **Backend**: Node.js 
+- **Database**: TBD
+- **Original Prototype**: Webflow
+
+---
+
+## Collaboration
+
+As with any of my projects, questions, suggestions, and ideas for collaboration are welcome.
+Feel free to reach out if you’re interested in contributing or discussing improvements.
