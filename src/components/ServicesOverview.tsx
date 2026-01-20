@@ -40,7 +40,7 @@ export default function ServicesOverview() {
               </h3>
               <p className="text-sm text-[#4e4e4e] mt-1">
                 Restore your skin&#39;s glow with our personalized facials and
-                natural skincare treatments. We use organic masks, deep
+                natural skincare treatments. We use tailored masks, deep
                 hydration, and nutrient-rich ingredients to leave your skin
                 refreshed, balanced, and visibly healthier.
               </p>
@@ -84,11 +84,11 @@ export default function ServicesOverview() {
                 Targeted Skincare Solutions
               </h3>
               <p className="text-sm text-[#4e4e4e] mt-1">
-                Whether you&#39;re dealing with acne, sensitivity, or dullness, our
-                customized skincare treatments are tailored to your unique skin
-                needs. Using professional-grade products and focused techniques,
-                we help restore balance, calm irritation, and improve overall
-                clarity for healthier, more resilient skin.
+                Whether you&#39;re dealing with acne, sensitivity, or dullness,
+                our customized skincare treatments are tailored to your unique
+                skin needs. Using professional-grade products and focused
+                techniques, we help restore balance, calm irritation, and
+                improve overall clarity for healthier, more resilient skin.
               </p>
             </div>
           </div>

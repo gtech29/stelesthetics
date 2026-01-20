@@ -45,17 +45,17 @@ export default function Hero() {
             </h2>
 
             <p className="uppercase tracking-widest text-sm mb-5 text-[#a89ba1]">
-              Hands-on skincare <br></br>facials, chemical peels,
-              microdermabrasion, and dermaplaning
+              Hands-on skincare <br></br>FACIALS, CHEMICAL PEELS, FIRMING
+              TREATMENTS, AND LASH LIFTS
             </p>
             <p className="text-[#5a5a5a] text-lg leading-relaxed">
-              In our private Plano studio, Estela performs every treatment
-              personally, from deep-cleansing facials and professional AHA/BHA
-              chemical peels to microdermabrasion and dermaplaning. Each
-              appointment begins with a detailed skin analysis, followed by
-              careful extractions, tailored exfoliation, and a healing hydration
-              mask. Expect honest guidance, evidence-based techniques, and
-              simple post-care recommendations to maintain results at home.
+              In our private Plano studio, Stela performs every treatment
+              personally, from deep-cleansing facials and professional chemical
+              peels to lash lift and tinting services. Each facial appointment
+              begins with a detailed skin analysis, followed by careful
+              extractions, tailored exfoliation, and a healing hydration mask.
+              Expect honest guidance, evidence-based techniques, and simple
+              post-care recommendations to maintain results at home.
             </p>
 
             <a
