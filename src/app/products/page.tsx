@@ -1,7 +1,6 @@
 ﻿"use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import Slider from "react-slick";
 import { useEffect, useState } from "react";
 
@@ -53,61 +52,56 @@ export default function ProductsPage() {
   };
 
   return (
-    <main className="relative bg-gradient-to-b from-[#fdf6f8] to-white py-24 px-4 mt-20">
-      <section
-        id="curated-favorites"
-        aria-labelledby="curated-favorites-heading"
-        className="max-w-4xl mx-auto"
-      >
-        <h2
-          id="curated-favorites-heading"
-          className="text-4xl font-serif font-bold text-center text-[#8f4f68] mb-4"
-        >
-          Curated Favorites
-        </h2>
-        <p className="text-center text-gray-600 text-base sm:text-lg max-w-3xl mx-auto mb-8">
-          Members enjoy exclusive access to professional skincare products,
-          preferred pricing, and early previews of new arrivals. Sign up now to
-          unlock the full collection and elevate your daily routine.
+    <main className="relative bg-gradient-to-b from-[#fdf6f8] to-white py-24 px-4 mt-20 min-h-screen">
+      {/* 1. Hero Section with the Matched Button */}
+      <section className="max-w-3xl mx-auto text-center mb-20">
+        <h1 className="text-4xl md:text-5xl font-serif text-gray-800 mb-6">
+          Official Circadia Retailer
+        </h1>
+        <p className="text-lg text-gray-600 mb-10 leading-relaxed">
+          As an authorized esthetician, I exclusively recommend Circadia
+          skincare. You can browse and purchase your customized regimen directly
+          through my secure client portal.
         </p>
 
-        <div className="text-center mb-12">
-          <Link
-            href="/coming-soon"
-            className="inline-block bg-[#b75d69] hover:bg-[#9e4956] text-white font-semibold py-3 px-8 rounded-full shadow-md transition focus:outline-none focus:ring-2 focus:ring-[#b75d69] focus:ring-offset-2"
-            aria-label="Sign up to be notified when our full skincare collection launches"
-          >
-            Unlock the Full Skincare Collection
-          </Link>
-          {/* <p className="text-sm text-gray-500 mt-3">
-            Already a member?{" "}
-            <Link href="/login" className="underline">
-              Sign in here
-            </Link>
-          </p> */}
-        </div>
+        {/* Updated Button Styling */}
+        <a
+          href="https://www.circadiaretailer.com/956221"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-[#b75d69] hover:bg-[#9e4956] text-white py-2 px-4 rounded-full transition"
+        >
+          Shop My Circadia Store
+        </a>
+      </section>
+
+      {/* 2. The Product Slider */}
+      <section className="max-w-xl mx-auto bg-white rounded-2xl shadow-sm p-8 border border-gray-100">
+        <h2 className="text-2xl font-serif text-center text-gray-800 mb-8">
+          Featured Favorites
+        </h2>
 
         <Slider {...settings}>
           {randomizedProducts.map((product, index) => (
-            <div key={index} className="px-4">
-              <div className="bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group">
-                <div className="relative w-full h-72 flex items-center justify-center">
-                  <div className="relative w-40 sm:w-48 md:w-52 h-full">
-                    <Image
-                      src={product.img}
-                      alt={product.title}
-                      fill
-                      className="object-contain"
-                    />
-                  </div>
-                </div>
-                <div className="p-6 text-center">
-                  <h3 className="text-xl font-serif text-[#8f4f68] font-semibold mb-2">
-                    {product.title}
-                  </h3>
-                  <p className="text-sm text-gray-600">{product.description}</p>
-                </div>
+            <div
+              key={index}
+              className="flex flex-col items-center text-center outline-none"
+            >
+              <div className="relative w-48 h-48 mx-auto mb-6">
+                <Image
+                  src={product.img}
+                  alt={product.title}
+                  fill
+                  style={{ objectFit: "contain" }}
+                  className="rounded-md"
+                />
               </div>
+              <h3 className="text-xl font-medium text-gray-800 mb-3">
+                {product.title}
+              </h3>
+              <p className="text-gray-600 text-sm px-4">
+                {product.description}
+              </p>
             </div>
           ))}
         </Slider>
