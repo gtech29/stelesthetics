@@ -66,7 +66,7 @@ export default function ProductsPage() {
 
         {/* Updated Button Styling */}
         <a
-          href="https://www.circadiaretailer.com/956221"
+          href="https://www.circadiaretailer.com/dealer/956221?_kx=E5gko2vFAKrDtk9YsVfKTo8ZIkDpxF8PtUzHHoyDvk0.UTWvrc"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-[#b75d69] hover:bg-[#9e4956] text-white py-2 px-4 rounded-full transition"
